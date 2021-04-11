@@ -55,7 +55,7 @@ function draw(){
       
      }
     
-    Engine.run(engine);
+    //Engine.run(engine);
     Engine.update(engine);
     drawSprites();
 }   

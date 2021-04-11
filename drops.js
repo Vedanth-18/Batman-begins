@@ -17,8 +17,8 @@ class Drops{
         fill("BLUE");
         imageMode(CENTER);
         image(this.image, pos.x, pos.y, 30,30);   
-        if(this.body.position.y>260){
-            Matter.Body.setPosition(this.body, {x:random(0,1000),y: random(0,650)});
-          }
+        if(this.body.position.y>800){ 
+            Matter.Body.setPosition(this.body, {x:random(0,1000),y: random(0,650)}); 
+        }
     }
 }
